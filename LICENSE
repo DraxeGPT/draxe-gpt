@@ -1,0 +1,47 @@
+DRAXE GPT - LICENCIA PROPIETARIA
+
+Copyright (c) 2026 Draxe GPT. Todos los derechos reservados.
+
+Este software, su código fuente, documentación, recursos gráficos, nombre,
+logotipo y marca "Draxe GPT" (en conjunto, el "Software") son propiedad
+exclusiva de su titular. El Software NO es de código abierto.
+
+1. RESTRICCIONES
+   Sin autorización previa, expresa y por escrito del titular, queda prohibido:
+   a) copiar, reproducir o redistribuir el Software, total o parcialmente;
+   b) modificar, adaptar o crear obras derivadas;
+   c) vender, sublicenciar, alquilar o prestar el Software;
+   d) alojar o ejecutar instancias del Software para terceros;
+   e) realizar ingeniería inversa, descompilar o intentar extraer el código
+      fuente de cualquier componente distribuido en forma no legible;
+   f) usar el nombre, logotipo o identidad visual de Draxe GPT para identificar
+      productos o servicios de terceros.
+
+2. ACCESO AL REPOSITORIO
+   El acceso de lectura a este repositorio no otorga licencia alguna de uso.
+   Las personas colaboradoras autorizadas lo usan únicamente para los fines
+   del proyecto y bajo las condiciones de CONTRIBUTING.md.
+
+3. COMPONENTES DE TERCEROS
+   El Software depende de bibliotecas de terceros (por ejemplo discord.js y
+   dotenv) que conservan sus propias licencias. Esta licencia no modifica
+   los términos de dichos componentes.
+
+4. MARCAS DE TERCEROS
+   Discord, Telegram, WhatsApp, Instagram, Meta y otros nombres mencionados
+   pertenecen a sus respectivos propietarios. Draxe GPT no está afiliado ni
+   respaldado por ellos.
+
+5. SIN GARANTÍA
+   EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA
+   O IMPLÍCITA, INCLUIDAS LAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN
+   PARTICULAR Y NO INFRACCIÓN. EL TITULAR NO SERÁ RESPONSABLE DE DAÑOS O
+   RECLAMACIONES DERIVADOS DEL USO DEL SOFTWARE, EN LA MEDIDA PERMITIDA POR LA
+   LEY APLICABLE.
+
+6. TERMINACIÓN
+   Cualquier uso no autorizado termina automáticamente cualquier permiso
+   otorgado y puede dar lugar a las acciones legales que correspondan.
+
+Para solicitar una licencia o autorización, contacta al titular a través de
+los canales indicados en SECURITY.md.
