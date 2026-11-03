@@ -1,47 +1,109 @@
-DRAXE GPT - LICENCIA PROPIETARIA
+================================================================================
+                       DRAXE GPT — LICENCIA PROPIETARIA
+                           Versión 1.0 · Noviembre 2026
+================================================================================
 
-Copyright (c) 2026 Draxe GPT. Todos los derechos reservados.
+Copyright © 2026 [NOMBRE LEGAL DEL TITULAR] ("el Titular").
+Todos los derechos reservados.
 
-Este software, su código fuente, documentación, recursos gráficos, nombre,
-logotipo y marca "Draxe GPT" (en conjunto, el "Software") son propiedad
-exclusiva de su titular. El Software NO es de código abierto.
+Draxe GPT no es software libre ni de código abierto. Esta licencia describe
+con precisión qué está permitido y qué no.
 
-1. RESTRICCIONES
-   Sin autorización previa, expresa y por escrito del titular, queda prohibido:
-   a) copiar, reproducir o redistribuir el Software, total o parcialmente;
-   b) modificar, adaptar o crear obras derivadas;
-   c) vender, sublicenciar, alquilar o prestar el Software;
-   d) alojar o ejecutar instancias del Software para terceros;
-   e) realizar ingeniería inversa, descompilar o intentar extraer el código
-      fuente de cualquier componente distribuido en forma no legible;
-   f) usar el nombre, logotipo o identidad visual de Draxe GPT para identificar
-      productos o servicios de terceros.
 
-2. ACCESO AL REPOSITORIO
-   El acceso de lectura a este repositorio no otorga licencia alguna de uso.
-   Las personas colaboradoras autorizadas lo usan únicamente para los fines
-   del proyecto y bajo las condiciones de CONTRIBUTING.md.
+1. DEFINICIONES
+--------------------------------------------------------------------------------
+"Software"       Código fuente, binarios, configuraciones, documentación,
+                 recursos gráficos, nombre, logotipo y marca "Draxe GPT".
+"Titular"        La persona o entidad indicada en el encabezado.
+"Autorización"   Permiso previo, expreso y por escrito del Titular.
+"Colaborador"    Persona autorizada por el Titular para acceder al repositorio
+                 y contribuir conforme a CONTRIBUTING.md.
 
-3. COMPONENTES DE TERCEROS
-   El Software depende de bibliotecas de terceros (por ejemplo discord.js y
-   dotenv) que conservan sus propias licencias. Esta licencia no modifica
-   los términos de dichos componentes.
 
-4. MARCAS DE TERCEROS
-   Discord, Telegram, WhatsApp, Instagram, Meta y otros nombres mencionados
-   pertenecen a sus respectivos propietarios. Draxe GPT no está afiliado ni
-   respaldado por ellos.
+2. TITULARIDAD
+--------------------------------------------------------------------------------
+El Software es propiedad exclusiva del Titular y está protegido por la
+legislación aplicable en materia de propiedad intelectual. Esta licencia no
+transfiere ningún derecho de propiedad.
 
-5. SIN GARANTÍA
-   EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA
-   O IMPLÍCITA, INCLUIDAS LAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN
-   PARTICULAR Y NO INFRACCIÓN. EL TITULAR NO SERÁ RESPONSABLE DE DAÑOS O
-   RECLAMACIONES DERIVADOS DEL USO DEL SOFTWARE, EN LA MEDIDA PERMITIDA POR LA
-   LEY APLICABLE.
 
-6. TERMINACIÓN
-   Cualquier uso no autorizado termina automáticamente cualquier permiso
-   otorgado y puede dar lugar a las acciones legales que correspondan.
+3. ALCANCE
+--------------------------------------------------------------------------------
+3.1  Sin Autorización, ninguna persona puede usar el Software, salvo las
+     personas Colaboradoras para los fines del proyecto.
+3.2  Cualquier uso comercial, de distribución o de alojamiento requiere un
+     acuerdo escrito aparte con el Titular.
+3.3  El acceso de lectura al repositorio, incluso si es público, no otorga
+     licencia de uso, copia, modificación ni distribución.
 
-Para solicitar una licencia o autorización, contacta al titular a través de
-los canales indicados en SECURITY.md.
+
+4. ACTOS PROHIBIDOS
+--------------------------------------------------------------------------------
+Sin Autorización queda prohibido:
+  a) copiar, reproducir o redistribuir el Software, total o parcialmente;
+  b) modificarlo, adaptarlo o crear obras derivadas;
+  c) venderlo, sublicenciarlo, alquilarlo o prestarlo;
+  d) alojar o ejecutar instancias del Software para terceros;
+  e) realizar ingeniería inversa o intentar extraer código fuente de
+     componentes distribuidos en forma no legible;
+  f) usar el nombre, logotipo o identidad visual de Draxe GPT para identificar
+     productos o servicios de terceros;
+  g) eliminar o alterar avisos de derechos de autor o de propiedad.
+
+
+5. CONTRIBUCIONES
+--------------------------------------------------------------------------------
+Quien envíe código, diseños o documentación al proyecto declara que tiene
+derecho a hacerlo y otorga al Titular una licencia mundial, perpetua,
+irrevocable y no exclusiva para usar, modificar y distribuir esa contribución
+como parte del Software, salvo que se pacte otra cosa por escrito.
+
+
+6. COMPONENTES DE TERCEROS
+--------------------------------------------------------------------------------
+El Software depende de bibliotecas de terceros (entre otras, discord.js y
+dotenv) que conservan sus propias licencias. Esta licencia no las modifica.
+
+
+7. MARCAS DE TERCEROS
+--------------------------------------------------------------------------------
+Discord, Telegram, WhatsApp, Instagram, Meta y otros nombres mencionados
+pertenecen a sus respectivos propietarios. Draxe GPT no está afiliado,
+patrocinado ni respaldado por ellos.
+
+
+8. EXCLUSIÓN DE GARANTÍAS
+--------------------------------------------------------------------------------
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O
+IMPLÍCITA, INCLUIDAS LAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN PARTICULAR
+Y NO INFRACCIÓN.
+
+
+9. LIMITACIÓN DE RESPONSABILIDAD
+--------------------------------------------------------------------------------
+EN LA MEDIDA PERMITIDA POR LA LEY APLICABLE, EL TITULAR NO SERÁ RESPONSABLE DE
+DAÑOS DIRECTOS, INDIRECTOS O CONSECUENTES DERIVADOS DEL USO O LA IMPOSIBILIDAD
+DE USO DEL SOFTWARE.
+
+
+10. TERMINACIÓN
+--------------------------------------------------------------------------------
+Cualquier incumplimiento termina automáticamente los permisos otorgados y
+puede dar lugar a las acciones legales que correspondan. Las secciones 2, 8,
+9 y 11 sobreviven a la terminación.
+
+
+11. LEY APLICABLE
+--------------------------------------------------------------------------------
+Ley y jurisdicción aplicables: [PENDIENTE: definir con asesoría legal].
+
+
+12. CONTACTO
+--------------------------------------------------------------------------------
+Para solicitar una licencia o Autorización: [CORREO DE CONTACTO]
+Reporte de vulnerabilidades: consulta SECURITY.md.
+
+================================================================================
+Este documento es un texto preliminar y no sustituye asesoría jurídica
+profesional. Se recomienda su revisión por un abogado antes de su uso formal.
+================================================================================
