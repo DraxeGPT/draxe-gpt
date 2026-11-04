@@ -14,6 +14,13 @@ y versionado semántico ([SemVer](https://semver.org/lang/es/)).
 - Comando `d!setlogchannel` para elegir o desactivar el canal de registro.
 - Documentación oficial: README, LICENSE, CONTRIBUTING, CODE_OF_CONDUCT,
   SECURITY, PRIVACY_POLICY y TERMS_OF_SERVICE.
+- Plantillas de issues y pull requests, CODEOWNERS, Dependabot y CI
+  (Node 18/20/22).
+- `package.json`, `.editorconfig`, `.gitattributes`, `SUPPORT.md`, `NOTICE.md`.
+- `docs/architecture.md` e índice de documentación.
+
+### Cambiado
+- Licencia propietaria v1.0 reestructurada (definiciones, contribuciones, ley aplicable).
 
 ### Pendiente
 - Mover `OWNER_ID` a `.env`.

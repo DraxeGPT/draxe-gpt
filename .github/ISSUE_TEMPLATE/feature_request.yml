@@ -1,0 +1,21 @@
+name: Propuesta de funcionalidad
+description: Sugiere una mejora o una función nueva.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema o necesidad
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Propuesta
+    validations:
+      required: true
+  - type: dropdown
+    id: plataforma
+    attributes:
+      label: Plataforma
+      options: [Discord, Telegram, WhatsApp, Instagram, Núcleo (Core), Documentación]

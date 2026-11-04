@@ -84,7 +84,7 @@ El núcleo contiene la lógica de negocio. Cada plataforma funciona como un adap
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/draxe-gpt.git
+git clone https://github.com/DraxeGPT/draxe-gpt.git
 cd draxe-gpt
 
 # 2. Instalar dependencias
@@ -139,6 +139,12 @@ PREFIX=d!
 - [ ] Adapter Instagram
 - [ ] Dashboard web
 - [ ] Draxe Brand Agent (app móvil)
+
+---
+
+## Documentación
+
+[Arquitectura](docs/architecture.md) · [Registro automático](docs/logging.md) · [Contribuir](CONTRIBUTING.md) · [Seguridad](SECURITY.md) · [Soporte](SUPPORT.md) · [Avisos de terceros](NOTICE.md)
 
 ---
 
