@@ -152,6 +152,7 @@ Principios: núcleo sin dependencias de plataforma, configuración por servidor 
 - [ ] Persistencia con SQLite
 - [ ] Adapters de Telegram, WhatsApp e Instagram
 - [ ] Panel web
+- [ ] Comunidad oficial en Discord y servidor de Minecraft *(en planificación)*
 
 ---
 
@@ -160,6 +161,7 @@ Principios: núcleo sin dependencias de plataforma, configuración por servidor 
 | | |
 |---|---|
 | [Arquitectura](docs/architecture.md) | [Registro automático](docs/logging.md) |
+| [Comunidad oficial](docs/community.md) | |
 | [Contribuir](CONTRIBUTING.md) | [Código de conducta](CODE_OF_CONDUCT.md) |
 | [Seguridad](SECURITY.md) | [Soporte](SUPPORT.md) |
 | [Privacidad](PRIVACY_POLICY.md) *(borrador)* | [Términos](TERMS_OF_SERVICE.md) *(borrador)* |
