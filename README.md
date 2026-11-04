@@ -88,6 +88,8 @@ Prefijo por defecto: `d!`
 | `d!8ball` | Bola 8 mágica |
 | `d!ship` | Compatibilidad entre dos usuarios |
 | `d!setlogchannel` | Configura el canal de registro *(requiere Gestionar servidor)* |
+| `d!setannounce` | Configura los canales de anuncios con embed *(requiere Gestionar servidor)* |
+| `d!announce` | Lanza un anuncio de versión, actualización o mantenimiento *(solo propietario)* |
 
 ### En desarrollo
 | Área | Comandos previstos |
@@ -145,6 +147,8 @@ Principios: núcleo sin dependencias de plataforma, configuración por servidor 
 - [x] Centro de ayuda interactivo
 - [x] Sugerencias con votación
 - [x] Registro automático de eventos
+- [x] Anuncios con embeds (versiones, actualizaciones, mantenimiento)
+- [ ] Anuncio automático al publicar una versión en GitHub
 - [ ] Consolidación del núcleo (mover `messageCreate` a `src/events`, `OWNER_ID` a `.env`)
 - [ ] Confesiones anónimas
 - [ ] Moderación completa

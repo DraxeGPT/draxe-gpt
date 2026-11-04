@@ -30,15 +30,17 @@ El rol del bot debe quedar **por encima** de los roles que gestione y **sin Admi
   🧭┃guia-rapida
   🎭┃roles
 
-📣 NOVEDADES                 · todos leen, solo staff escribe
-  📣┃anuncios                (tipo Anuncios)
-  🚀┃versiones               (tipo Anuncios)
-  🛠️┃actualizaciones        (tipo Anuncios)
-  🔧┃mantenimiento           (tipo Anuncios)
+📣 NOVEDADES                 · todos leen, solo staff y bot escriben
+  📣┃anuncios                (tipo Anuncios · comunicados manuales)
+  🚀┃versiones               (tipo Anuncios · embed automático del bot)
+  🛠️┃actualizaciones        (tipo Anuncios · embed automático del bot)
+  🔧┃mantenimiento           (tipo Anuncios · embed automático del bot)
+  🟢┃estado                  (incidencias · embed automático del bot)
   🗺️┃hoja-de-ruta
 
 💬 COMUNIDAD                 · solo rol Miembro
   💬┃general
+  🗳️┃encuestas
   💡┃sugerencias
   🖼️┃creaciones
   🤖┃comandos
@@ -50,7 +52,7 @@ El rol del bot debe quedar **por encima** de los roles que gestione y **sin Admi
 
 ⛏️ MINECRAFT                 · solo rol Miembro · [PENDIENTE]
   ⛏️┃info-servidor           (solo lectura)
-  📰┃novedades-mc            (solo lectura)
+  📰┃novedades-mc            (solo lectura · embed automático del bot)
   🎮┃chat-mc
   🔗┃vincular-cuenta
 
@@ -64,9 +66,11 @@ El rol del bot debe quedar **por encima** de los roles que gestione y **sin Admi
 
 **Descripciones de canal (tema):**
 - reglas: `Normas de la comunidad. Léelas antes de participar.`
-- versiones: `Cada versión publicada de Draxe GPT.`
-- actualizaciones: `Cambios y avances del proyecto.`
-- mantenimiento: `Mantenimiento e incidencias.`
+- versiones: `Cada versión publicada de Draxe GPT. Mensajes automáticos del bot.`
+- actualizaciones: `Cambios y avances del proyecto. Mensajes automáticos del bot.`
+- mantenimiento: `Mantenimiento programado. Mensajes automáticos del bot.`
+- estado: `Incidencias y estado del servicio. Mensajes automáticos del bot.`
+- encuestas: `Votaciones de la comunidad.`
 - reportar-errores: `Incluye pasos para reproducir el error. Nunca compartas tokens.`
 - registro: `Registro automático del servidor.`
 
@@ -123,48 +127,37 @@ Pide al equipo los avisos que te interesen:
 🔔 **Minecraft** — novedades del servidor de Minecraft
 ```
 
-### 🚀 Plantilla de versión (#versiones)
-```
-# 🚀 Draxe GPT vX.Y.Z
-📅 Fecha: AAAA-MM-DD · 🔖 Tipo: Mayor / Menor / Corrección
+## Anuncios automáticos (embeds del bot)
 
-✨ **Novedades**
-• …
-🛠️ **Mejoras**
-• …
-🐞 **Correcciones**
-• …
-⚠️ **Cambios importantes**
-• …
+Estos canales los alimenta el bot: **no hace falta escribir nada a mano**. Cada anuncio es un embed con la identidad de Draxe GPT (`#5865F2`; mantenimiento `#F0B232`, incidencias `#ED4245`, Minecraft `#57F287`).
 
-📖 Detalle: <enlace al CHANGELOG>
-```
+| Tipo | Canal | Se envía cuando… | Contenido del embed |
+|------|-------|------------------|---------------------|
+| `version` | 🚀┃versiones | Se publica una versión | Título `Draxe GPT vX.Y.Z`, ✨ Novedades, 🛠️ Mejoras, 🐞 Correcciones, ⚠️ Cambios importantes |
+| `update` | 🛠️┃actualizaciones | Hay un cambio relevante | Título, descripción y enlace al cambio |
+| `maintenance` | 🔧┃mantenimiento | Se programa un mantenimiento | 🕒 Inicio, ⏱️ Duración, 📌 Impacto |
+| `incident` | 🟢┃estado | Hay una incidencia | Título, 🕒 Inicio, 📌 Impacto |
+| `minecraft` | 📰┃novedades-mc | Hay novedades del servidor | 🎮 Servidor, 🔖 Versión del juego, cambios · **[PENDIENTE]** |
 
-### 🛠️ Plantilla de actualización (#actualizaciones)
+**Configurar (una vez por tipo):**
 ```
-# 🛠️ Actualización — <título corto>
-**Qué cambió:** …
-**Por qué:** …
-**Cómo afecta:** …
-**Enlace:** <commit o pull request>
+d!setannounce version #🚀┃versiones @🔔 Versiones
+d!setannounce update #🛠️┃actualizaciones @🔔 Actualizaciones
+d!setannounce maintenance #🔧┃mantenimiento @🔔 Mantenimiento
+d!setannounce incident #🟢┃estado
+d!setannounce minecraft #📰┃novedades-mc @🔔 Minecraft
 ```
 
-### 🔧 Plantilla de mantenimiento (#mantenimiento)
+**Lanzar un anuncio a mano** (solo el propietario del bot):
 ```
-# 🔧 Mantenimiento programado
-🕒 Inicio: <hora y zona horaria>
-⏱️ Duración estimada: …
-📌 Impacto: …
-Te avisaremos cuando finalice.
+d!announce version 1.2.0 | novedad 1 ; novedad 2 | mejora 1 | corrección 1
+d!announce update Título | descripción
+d!announce maintenance Título | inicio | duración | impacto
 ```
 
-### ⛏️ Plantilla de Minecraft (#novedades-mc) · [PENDIENTE]
-```
-# ⛏️ <Nombre del servidor> — <asunto>
-**Versión:** <confirmada>
-**Cambios:** …
-**Eventos / mantenimiento:** …
-```
+**Seguridad:** el bot solo menciona el rol configurado, nunca `@everyone`, y recorta los textos largos para respetar los límites de Discord.
+
+**Pendiente:** el envío totalmente automático al publicar una versión en GitHub requiere conectar un evento de GitHub con el bot; está planificado.
 
 ---
 
@@ -172,7 +165,7 @@ Te avisaremos cuando finalice.
 
 | Bot / integración | Función | Permisos mínimos |
 |-------------------|---------|------------------|
-| **Draxe GPT** | Comandos, sugerencias y registro automático | Ver canales, Enviar mensajes, Insertar enlaces, Leer historial, Gestionar mensajes |
+| **Draxe GPT** | Comandos, sugerencias, registro automático y anuncios con embeds | Ver canales, Enviar mensajes, Insertar enlaces, Leer historial, Gestionar mensajes |
 | Flujo de n8n (GitHub → Discord) | Avisos de cada actualización | Solo un webhook en el canal de destino |
 
 Intents del bot en el portal: *Server Members* y *Message Content*. Después de crear el canal de registro, ejecuta `d!setlogchannel #🧾┃registro`.

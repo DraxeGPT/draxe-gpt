@@ -1,5 +1,10 @@
 # Bitácora
 
+### 2026-11-04 — Anuncios con embeds automáticos
+- Plantillas de embed y `Announcer` en el bot; comandos `d!setannounce` y `d!announce`; 12 pruebas.
+- Canales de novedades alimentados por el bot; nuevos `🟢┃estado` y `🗳️┃encuestas`.
+- **Pendiente:** disparo automático al publicar una versión en GitHub.
+
 ### 2026-11-04 — Plantilla del Discord y su registro de cambios
 - Plantilla para copiar y pegar y registro de cambios del Discord en `docs/discord/`.
 - Se descartó el script de instalación automática: la plantilla se aplica a mano.

@@ -19,6 +19,7 @@ y versionado semántico ([SemVer](https://semver.org/lang/es/)).
 - `package.json`, `.editorconfig`, `.gitattributes`, `SUPPORT.md`, `NOTICE.md`.
 - `docs/architecture.md` e índice de documentación.
 - Secciones `docs/basico/` (guía rápida, comandos, FAQ) y `docs/registro/` (bitácora).
+- Anuncios con embeds: `EmbedTemplates` y `Announcer` (versión, actualización, mantenimiento, incidencia y Minecraft), comandos `d!setannounce` y `d!announce`.
 - Plantilla del Discord para copiar y pegar y registro de cambios del Discord (`docs/discord/`).
 - `docs/community.md`: plantilla del Discord oficial y plan del servidor de Minecraft.
 
