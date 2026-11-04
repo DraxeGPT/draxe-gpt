@@ -5,11 +5,14 @@
   "private": true,
   "license": "SEE LICENSE IN LICENSE",
   "main": "src/index.js",
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
-    "test": "node --test"
+    "test": "node --test",
+    "setup:discord": "node scripts/setup-discord-server.js"
   },
   "dependencies": {
     "discord.js": "^14.27.0",

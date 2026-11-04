@@ -19,6 +19,7 @@ y versionado semántico ([SemVer](https://semver.org/lang/es/)).
 - `package.json`, `.editorconfig`, `.gitattributes`, `SUPPORT.md`, `NOTICE.md`.
 - `docs/architecture.md` e índice de documentación.
 - Secciones `docs/basico/` (guía rápida, comandos, FAQ) y `docs/registro/` (bitácora).
+- Plantilla ejecutable del servidor de Discord (`config/discord-template.json`, `scripts/setup-discord-server.js`, `npm run setup:discord`) y `docs/plantilla-discord.md`.
 - `docs/community.md`: plantilla del Discord oficial y plan del servidor de Minecraft.
 
 ### Cambiado

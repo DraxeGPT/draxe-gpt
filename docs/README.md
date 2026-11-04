@@ -19,6 +19,7 @@
 | Documento | Contenido |
 |-----------|-----------|
 | [Arquitectura](architecture.md) | Núcleo, adapters y flujo de eventos |
+| [Plantilla del servidor de Discord](plantilla-discord.md) | Roles, canales, permisos, reglas y embeds (ejecutable) |
 | [Comunidad oficial](community.md) | Plantilla del Discord y plan de Minecraft |
 
 ## ⚖️ Legal y administrativa

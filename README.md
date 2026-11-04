@@ -162,7 +162,7 @@ Principios: núcleo sin dependencias de plataforma, configuración por servidor 
 |---|---|
 | [Guía rápida](docs/basico/guia-rapida.md) | [Registro del proyecto (bitácora)](docs/registro/README.md) |
 | [Arquitectura](docs/architecture.md) | [Registro automático](docs/logging.md) |
-| [Comunidad oficial](docs/community.md) | |
+| [Comunidad oficial](docs/community.md) | [Plantilla del servidor de Discord](docs/plantilla-discord.md) |
 | [Contribuir](CONTRIBUTING.md) | [Código de conducta](CODE_OF_CONDUCT.md) |
 | [Seguridad](SECURITY.md) | [Soporte](SUPPORT.md) |
 | [Privacidad](PRIVACY_POLICY.md) *(borrador)* | [Términos](TERMS_OF_SERVICE.md) *(borrador)* |
