@@ -11,8 +11,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
-    "test": "node --test",
-    "setup:discord": "node scripts/setup-discord-server.js"
+    "test": "node --test"
   },
   "dependencies": {
     "discord.js": "^14.27.0",

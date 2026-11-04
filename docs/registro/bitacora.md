@@ -1,8 +1,9 @@
 # Bitácora
 
-### 2026-11-04 — Plantilla ejecutable del Discord
-- Roles, categorías, canales, permisos y embeds definidos en `config/discord-template.json`; script idempotente con modo simulación y 4 pruebas.
-- **Pendiente:** aplicarla en el servidor oficial y confirmar los datos de Minecraft.
+### 2026-11-04 — Plantilla del Discord y su registro de cambios
+- Plantilla para copiar y pegar y registro de cambios del Discord en `docs/discord/`.
+- Se descartó el script de instalación automática: la plantilla se aplica a mano.
+- **Pendiente:** montar el servidor oficial y confirmar los datos de Minecraft.
 
 ### 2026-11-04 — Comunidad oficial y plan de Minecraft
 - Plantilla del Discord oficial ([community.md](../community.md)): canales, roles, permisos y textos.
