@@ -9,12 +9,14 @@ Proyecto **independiente** de Draxe GPT: no se reutilizan configuraciones de otr
 |------|-------|
 | Nombre | `[PENDIENTE]` |
 | Modalidad | `[PENDIENTE]` (supervivencia, BoxPvP, etc.) |
-| Edición | Java |
+| Edición | Java + Bedrock (Geyser y Floodgate) — ver [guía](java-bedrock.md) |
 | Versión del juego | `[PENDIENTE]` |
 | Software | `[PENDIENTE]` (p. ej. Paper) |
 | Hosting | `[PENDIENTE]` |
 | Dirección | `[PENDIENTE]` |
 | Estética | Identidad de Draxe GPT (`#5865F2`) — por confirmar |
+
+Guía de instalación paso a paso: [java-bedrock.md](java-bedrock.md).
 
 ## Decisión clave: autenticación de jugadores
 Define antes de abrir el servidor quién puede entrar, porque condiciona la seguridad:

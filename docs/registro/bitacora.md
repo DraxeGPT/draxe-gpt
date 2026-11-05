@@ -1,5 +1,10 @@
 # Bitácora
 
+### 2026-11-05 — Guía del servidor Java + Bedrock
+- Guía de Paper + Geyser + Floodgate con dos modos (A: solo cuentas oficiales; B: también no premium con AuthMe).
+- El modo B no está documentado por el equipo de Geyser: requiere pruebas cerradas. Compatibilidad de Aternos con Bedrock **sin verificar**.
+- **Pendiente:** elegir versión, hosting y modo.
+
 ### 2026-11-05 — Documentación del servidor de Minecraft
 - `docs/minecraft/`: ficha con campos pendientes, decisión de autenticación de jugadores (cuentas oficiales vs. sin verificación), plugins por evaluar y lista previa al anuncio.
 - **Pendiente:** completar la ficha con los datos reales.
