@@ -13,6 +13,7 @@
 | [Plantilla (copiar y pegar)](discord/plantilla.md) | Roles, canales, reglas, mensajes y bots |
 | [Registro de cambios del Discord](discord/registro-de-cambios.md) | Historial de cambios del servidor |
 | [Comunidad y plan de Minecraft](community.md) | Contexto de la comunidad |
+| [Servidor de Minecraft](minecraft/README.md) | Ficha, autenticación, plugins y lista previa al anuncio |
 
 ## 🧾 Registro (log)
 | Documento | Contenido |

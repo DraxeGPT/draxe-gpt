@@ -1,5 +1,9 @@
 # Bitácora
 
+### 2026-11-05 — Documentación del servidor de Minecraft
+- `docs/minecraft/`: ficha con campos pendientes, decisión de autenticación de jugadores (cuentas oficiales vs. sin verificación), plugins por evaluar y lista previa al anuncio.
+- **Pendiente:** completar la ficha con los datos reales.
+
 ### 2026-11-04 — Anuncios con embeds automáticos
 - Plantillas de embed y `Announcer` en el bot; comandos `d!setannounce` y `d!announce`; 12 pruebas.
 - Canales de novedades alimentados por el bot; nuevos `🟢┃estado` y `🗳️┃encuestas`.
