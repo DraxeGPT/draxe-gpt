@@ -1,5 +1,11 @@
 # Bitácora
 
+### 2026-11-05 — DraxeCraft Network definida
+- Red con Velocity + lobby + survival custom + skyblock OP, en PC propio, modo B (no premium con AuthMe) y Bedrock con Geyser/Floodgate.
+- Verificado en documentación: ExcellentEnchants (1.21.11), BSkyBlock 1.20.0 (Paper 1.21.11), configuración de AuthMe con proxy offline.
+- **Sin verificar:** versión de Geyser frente a 1.21.11 (ViaVersion), Bedrock con AuthMe, ExcellentCrates, plugin de dungeons.
+- **Aviso:** 8 GB de RAM es justo para 4 servidores a la vez.
+
 ### 2026-11-05 — Guía del servidor Java + Bedrock
 - Guía de Paper + Geyser + Floodgate con dos modos (A: solo cuentas oficiales; B: también no premium con AuthMe).
 - El modo B no está documentado por el equipo de Geyser: requiere pruebas cerradas. Compatibilidad de Aternos con Bedrock **sin verificar**.

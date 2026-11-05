@@ -7,16 +7,18 @@ Proyecto **independiente** de Draxe GPT: no se reutilizan configuraciones de otr
 ## Ficha del servidor
 | Dato | Valor |
 |------|-------|
-| Nombre | `[PENDIENTE]` |
-| Modalidad | `[PENDIENTE]` (supervivencia, BoxPvP, etc.) |
+| Nombre | DraxeCraft Network |
+| Modalidades | Survival custom (encantamientos custom, crates, dungeons) · Skyblock OP |
 | Edición | Java + Bedrock (Geyser y Floodgate) — ver [guía](java-bedrock.md) |
-| Versión del juego | `[PENDIENTE]` |
-| Software | `[PENDIENTE]` (p. ej. Paper) |
-| Hosting | `[PENDIENTE]` |
+| Versión del juego | 1.21.11 como base (a confirmar con Geyser; ver guía) |
+| Software | Paper (backends) + Velocity (proxy) |
+| Hosting | PC propio (Windows 10) |
 | Dirección | `[PENDIENTE]` |
 | Estética | Identidad de Draxe GPT (`#5865F2`) — por confirmar |
 
-Guía de instalación paso a paso: [java-bedrock.md](java-bedrock.md).
+Guías: [Java + Bedrock](java-bedrock.md) · [Red DraxeCraft (proxy + modalidades)](draxecraft-network.md).
+
+**Decisiones tomadas:** modo B (acepta jugadores no premium, con AuthMe), alojado en PC propio.
 
 ## Decisión clave: autenticación de jugadores
 Define antes de abrir el servidor quién puede entrar, porque condiciona la seguridad:

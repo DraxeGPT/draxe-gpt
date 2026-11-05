@@ -21,6 +21,7 @@ y versionado semántico ([SemVer](https://semver.org/lang/es/)).
 - Secciones `docs/basico/` (guía rápida, comandos, FAQ) y `docs/registro/` (bitácora).
 - Anuncios con embeds: `EmbedTemplates` y `Announcer` (versión, actualización, mantenimiento, incidencia y Minecraft), comandos `d!setannounce` y `d!announce`.
 - Plantilla del Discord para copiar y pegar y registro de cambios del Discord (`docs/discord/`).
+- `docs/minecraft/draxecraft-network.md`: guía de la red DraxeCraft (proxy, lobby, survival custom y skyblock OP).
 - `docs/minecraft/java-bedrock.md`: guía de servidor Java + Bedrock con Geyser y Floodgate.
 - `docs/minecraft/`: plan y ficha del servidor de Minecraft (datos pendientes).
 - `docs/community.md`: plantilla del Discord oficial y plan del servidor de Minecraft.
