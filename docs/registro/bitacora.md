@@ -1,5 +1,12 @@
 # Bitácora
 
+### 2026-11-06 — Guías, scripts y comandos universales de DraxeCraft
+- Scripts de instalación para Windows y Linux ([scripts/](minecraft/scripts/README.md)).
+- Comandos universales `/ip`, `/discord`, `/tiktok`, `/tienda` ([guía](minecraft/comandos-universales.md)).
+- Guion y prompts para el video tutorial animado ([video](minecraft/video/prompts-nano-banana.md)).
+- Decisión: el servidor se aloja en el PC con Windows; ChromeOS sin Linux no puede alojarlo.
+- **Pendiente:** probar scripts, verificar VCC, Geyser con 1.21.11 y Bedrock con AuthMe.
+
 ### 2026-11-05 — DraxeCraft Network definida
 - Red con Velocity + lobby + survival custom + skyblock OP, en PC propio, modo B (no premium con AuthMe) y Bedrock con Geyser/Floodgate.
 - Verificado en documentación: ExcellentEnchants (1.21.11), BSkyBlock 1.20.0 (Paper 1.21.11), configuración de AuthMe con proxy offline.

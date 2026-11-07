@@ -6,6 +6,7 @@ y versionado semántico ([SemVer](https://semver.org/lang/es/)).
 ## [Sin publicar]
 
 ### Agregado
+- Scripts de instalación (Windows/Linux), comandos universales y guion de video de DraxeCraft Network.
 - Sistema de **registro automático** en Discord: miembros (entradas, salidas,
   cambios de rol y apodo), mensajes (editados y eliminados), baneos,
   canales, roles y uso de comandos.
