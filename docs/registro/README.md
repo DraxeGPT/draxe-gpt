@@ -6,7 +6,7 @@ Dos registros complementarios:
 |----------|--------------|-------|
 | **Cambios por versión** | Qué cambia en cada versión publicada | [CHANGELOG.md](../../CHANGELOG.md) |
 | **Bitácora** | Decisiones y hitos del proyecto, con fecha | [bitacora.md](bitacora.md) |
-| **Registro del servidor** | Eventos de Discord en tiempo real | [Registro automático](../logging.md) |
+| **Registro del servidor** | Eventos de Discord en tiempo real | [Registro automático](../tecnica/logging.md) |
 
 ## Cómo mantener la bitácora
 Una entrada por hito o decisión, la más reciente arriba, con este formato:

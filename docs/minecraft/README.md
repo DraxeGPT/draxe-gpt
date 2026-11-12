@@ -58,3 +58,10 @@ Mínimo recomendado: Propietario, Administrador, Moderador, Colaborador, Jugador
 
 ## Qué no se afirmará sin comprobarlo
 Disponibilidad garantizada, protección contra ataques, soporte permanente o rendimiento concreto.
+
+## Índice de esta carpeta
+- [Red DraxeCraft](draxecraft-network.md) · [Java + Bedrock](java-bedrock.md)
+- [Instalación paso a paso](instalacion-paso-a-paso.md) · [Scripts](scripts/README.md) · [Comandos universales](comandos-universales.md)
+- [Video tutorial](video/prompts-nano-banana.md)
+
+[← Índice general](../README.md)

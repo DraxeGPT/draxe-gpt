@@ -6,6 +6,7 @@ y versionado semántico ([SemVer](https://semver.org/lang/es/)).
 ## [Sin publicar]
 
 ### Agregado
+- Documentación reorganizada en subcarpetas (`basico`, `tecnica`, `discord`, `minecraft`, `registro`) y README mejorado.
 - Scripts de instalación (Windows/Linux), comandos universales y guion de video de DraxeCraft Network.
 - Sistema de **registro automático** en Discord: miembros (entradas, salidas,
   cambios de rol y apodo), mensajes (editados y eliminados), baneos,
@@ -18,14 +19,14 @@ y versionado semántico ([SemVer](https://semver.org/lang/es/)).
 - Plantillas de issues y pull requests, CODEOWNERS, Dependabot y CI
   (Node 18/20/22).
 - `package.json`, `.editorconfig`, `.gitattributes`, `SUPPORT.md`, `NOTICE.md`.
-- `docs/architecture.md` e índice de documentación.
+- `docs/tecnica/architecture.md` e índice de documentación.
 - Secciones `docs/basico/` (guía rápida, comandos, FAQ) y `docs/registro/` (bitácora).
 - Anuncios con embeds: `EmbedTemplates` y `Announcer` (versión, actualización, mantenimiento, incidencia y Minecraft), comandos `d!setannounce` y `d!announce`.
 - Plantilla del Discord para copiar y pegar y registro de cambios del Discord (`docs/discord/`).
 - `docs/minecraft/draxecraft-network.md`: guía de la red DraxeCraft (proxy, lobby, survival custom y skyblock OP).
 - `docs/minecraft/java-bedrock.md`: guía de servidor Java + Bedrock con Geyser y Floodgate.
 - `docs/minecraft/`: plan y ficha del servidor de Minecraft (datos pendientes).
-- `docs/community.md`: plantilla del Discord oficial y plan del servidor de Minecraft.
+- `docs/discord/comunidad.md`: plantilla del Discord oficial y plan del servidor de Minecraft.
 
 ### Cambiado
 - Licencia propietaria v1.0 reestructurada (definiciones, contribuciones, ley aplicable).

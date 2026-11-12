@@ -12,7 +12,9 @@ Un único núcleo. Múltiples canales. Discord hoy; Telegram, WhatsApp e Instagr
 ![discord.js](https://img.shields.io/badge/discord.js-v14-5865F2?style=flat-square&logo=discord&logoColor=white)
 ![Licencia](https://img.shields.io/badge/licencia-propietaria-red?style=flat-square)
 
-[Inicio rápido](#inicio-rápido) · [Comandos](#comandos) · [Registro automático](#registro-automático) · [Arquitectura](#arquitectura) · [Hoja de ruta](#hoja-de-ruta) · [Documentación](#documentación)
+[Inicio rápido](#inicio-rápido) · [Comandos](#comandos) · [Registro automático](#registro-automático) · [Arquitectura](#arquitectura) · [Ecosistema](#ecosistema) · [Hoja de ruta](#hoja-de-ruta) · [Documentación](#documentación)
+
+**Atajos:** [📚 Docs](docs/README.md) · [🚀 Guía rápida](docs/basico/guia-rapida.md) · [⛏️ DraxeCraft](docs/minecraft/README.md) · [💬 Discord](docs/discord/comunidad.md) · [🧾 Bitácora](docs/registro/bitacora.md)
 
 </div>
 
@@ -117,7 +119,7 @@ d!setlogchannel off           desactivar
 - Los mensajes de bots y del propio canal de registro se ignoran.
 - Las menciones en los registros no notifican a nadie.
 
-> Informa a los miembros de tu servidor de que existe este registro. Más detalles en [docs/logging.md](docs/logging.md).
+> Informa a los miembros de tu servidor de que existe este registro. Más detalles en [docs/tecnica/logging.md](docs/tecnica/logging.md).
 
 ---
 
@@ -134,10 +136,38 @@ src/
 ├─ adapters/discord/   DiscordLogger
 └─ commands/           Comandos por categoría
 tests/                 Pruebas con node:test
-docs/                  Documentación técnica
+docs/                  Documentación (basico · tecnica · discord · minecraft · registro)
 ```
 
-Principios: núcleo sin dependencias de plataforma, configuración por servidor (multi-tenant), persistencia sustituible (JSON hoy, SQLite próximamente) y secretos únicamente en variables de entorno. Más en [docs/architecture.md](docs/architecture.md).
+Principios: núcleo sin dependencias de plataforma, configuración por servidor (multi-tenant), persistencia sustituible (JSON hoy, SQLite próximamente) y secretos únicamente en variables de entorno. Más en [docs/tecnica/architecture.md](docs/tecnica/architecture.md).
+
+---
+
+## Ecosistema
+
+Draxe GPT forma parte de un conjunto de proyectos que crecen juntos:
+
+| Proyecto | Descripción | Estado | Documentación |
+|----------|-------------|--------|---------------|
+| 🤖 **Bot de Discord** | Comandos, registro automático y anuncios con embed | ✅ Activo | [Guía rápida](docs/basico/guia-rapida.md) |
+| 💬 **Discord oficial** | Comunidad, versiones y actualizaciones | 🛠️ En montaje | [Comunidad](docs/discord/comunidad.md) · [Plantilla](docs/discord/plantilla.md) |
+| ⛏️ **DraxeCraft Network** | Servidor de Minecraft Java + Bedrock: Survival custom y Skyblock OP | 🛠️ En preparación | [Ficha](docs/minecraft/README.md) |
+
+### ⛏️ DraxeCraft Network
+
+Red con proxy **Velocity**, servidores **Paper** (lobby, survival, skyblock), **Geyser/Floodgate** para Bedrock y **AuthMe** para jugadores no premium. Hosting en PC propio.
+
+| Guía | Contenido |
+|------|-----------|
+| [Ficha y decisiones](docs/minecraft/README.md) | Nombre, modalidades, versión y autenticación |
+| [Red DraxeCraft](docs/minecraft/draxecraft-network.md) | Proxy y modalidades |
+| [Java + Bedrock](docs/minecraft/java-bedrock.md) | Geyser, Floodgate y compatibilidad |
+| [Instalación paso a paso](docs/minecraft/instalacion-paso-a-paso.md) | Orden de ejecución |
+| [Scripts](docs/minecraft/scripts/README.md) | Windows y Linux |
+| [Comandos universales](docs/minecraft/comandos-universales.md) | `/ip` `/discord` `/tiktok` `/tienda` |
+| [Video tutorial](docs/minecraft/video/prompts-nano-banana.md) | Guion y prompts |
+
+> Los scripts y varios plugins están **pendientes de verificación en un equipo real**; cada guía indica qué falta confirmar.
 
 ---
 
@@ -156,22 +186,24 @@ Principios: núcleo sin dependencias de plataforma, configuración por servidor 
 - [ ] Persistencia con SQLite
 - [ ] Adapters de Telegram, WhatsApp e Instagram
 - [ ] Panel web
-- [ ] Comunidad oficial en Discord y servidor de Minecraft *(en planificación)*
+- [x] Documentación, scripts y guías de DraxeCraft Network
+- [ ] Comunidad oficial en Discord y lanzamiento de DraxeCraft Network
 
 ---
 
 ## Documentación
 
-| | |
-|---|---|
-| [Guía rápida](docs/basico/guia-rapida.md) | [Registro del proyecto (bitácora)](docs/registro/README.md) |
-| [Arquitectura](docs/architecture.md) | [Registro automático](docs/logging.md) |
-| [Plantilla del Discord](docs/discord/plantilla.md) | [Registro de cambios del Discord](docs/discord/registro-de-cambios.md) |
-| [Comunidad oficial](docs/community.md) | |
-| [Contribuir](CONTRIBUTING.md) | [Código de conducta](CODE_OF_CONDUCT.md) |
-| [Seguridad](SECURITY.md) | [Soporte](SUPPORT.md) |
-| [Privacidad](PRIVACY_POLICY.md) *(borrador)* | [Términos](TERMS_OF_SERVICE.md) *(borrador)* |
-| [Cambios](CHANGELOG.md) | [Avisos de terceros](NOTICE.md) |
+Índice completo: **[docs/README.md](docs/README.md)**
+
+| Área | Documentos |
+|------|-----------|
+| 📘 [Básico](docs/basico/) | [Guía rápida](docs/basico/guia-rapida.md) · [Comandos](docs/basico/comandos.md) · [FAQ](docs/basico/faq.md) |
+| 🏗️ [Técnica](docs/tecnica/) | [Arquitectura](docs/tecnica/architecture.md) · [Registro automático](docs/tecnica/logging.md) |
+| 💬 [Discord](docs/discord/) | [Comunidad](docs/discord/comunidad.md) · [Plantilla](docs/discord/plantilla.md) · [Registro de cambios](docs/discord/registro-de-cambios.md) |
+| ⛏️ [Minecraft](docs/minecraft/) | [Ficha](docs/minecraft/README.md) · [Red](docs/minecraft/draxecraft-network.md) · [Java + Bedrock](docs/minecraft/java-bedrock.md) |
+| 🧾 [Registro](docs/registro/) | [Bitácora](docs/registro/bitacora.md) · [CHANGELOG](CHANGELOG.md) |
+| ⚖️ Legal | [LICENSE](LICENSE) · [Privacidad](PRIVACY_POLICY.md) *(borrador)* · [Términos](TERMS_OF_SERVICE.md) *(borrador)* · [Avisos](NOTICE.md) |
+| 🤝 Comunidad | [Contribuir](CONTRIBUTING.md) · [Código de conducta](CODE_OF_CONDUCT.md) · [Seguridad](SECURITY.md) · [Soporte](SUPPORT.md) |
 
 ---
 

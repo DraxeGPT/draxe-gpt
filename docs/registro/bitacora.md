@@ -1,9 +1,14 @@
 # Bitácora
 
+### 2026-11-11 — Reorganización de la documentación
+- README principal mejorado: atajos, sección Ecosistema y DraxeCraft Network, índice por áreas.
+- Documentos movidos a subcarpetas: `docs/tecnica/` (arquitectura, registro automático) y `docs/discord/comunidad.md`.
+- Índice [docs/README.md](../README.md) con enlaces directos; enlaces internos verificados.
+
 ### 2026-11-06 — Guías, scripts y comandos universales de DraxeCraft
-- Scripts de instalación para Windows y Linux ([scripts/](minecraft/scripts/README.md)).
-- Comandos universales `/ip`, `/discord`, `/tiktok`, `/tienda` ([guía](minecraft/comandos-universales.md)).
-- Guion y prompts para el video tutorial animado ([video](minecraft/video/prompts-nano-banana.md)).
+- Scripts de instalación para Windows y Linux ([scripts/](../minecraft/scripts/README.md)).
+- Comandos universales `/ip`, `/discord`, `/tiktok`, `/tienda` ([guía](../minecraft/comandos-universales.md)).
+- Guion y prompts para el video tutorial animado ([video](../minecraft/video/prompts-nano-banana.md)).
 - Decisión: el servidor se aloja en el PC con Windows; ChromeOS sin Linux no puede alojarlo.
 - **Pendiente:** probar scripts, verificar VCC, Geyser con 1.21.11 y Bedrock con AuthMe.
 
@@ -33,7 +38,7 @@
 - **Pendiente:** montar el servidor oficial y confirmar los datos de Minecraft.
 
 ### 2026-11-04 — Comunidad oficial y plan de Minecraft
-- Plantilla del Discord oficial ([community.md](../community.md)): canales, roles, permisos y textos.
+- Plantilla del Discord oficial ([community.md](../discord/comunidad.md)): canales, roles, permisos y textos.
 - Servidor de Minecraft **en planificación**: nombre, modalidad, versión y hosting pendientes de confirmar.
 
 ### 2026-11-04 — Estructura profesional del repositorio
