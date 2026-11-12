@@ -1,5 +1,7 @@
 # Guía rápida
 
+**Requisitos:** Node.js 18+, npm y un bot creado en el [Portal de Desarrolladores](https://discord.com/developers/applications).
+
 ## 1. Instalar
 ```bash
 git clone https://github.com/DraxeGPT/draxe-gpt.git
@@ -9,11 +11,18 @@ cp .env.example .env     # Windows: copy .env.example .env
 ```
 
 ## 2. Configurar `.env`
-Completa `DISCORD_TOKEN`, `CLIENT_ID`, `OWNER_ID` y, si quieres, `PREFIX`.
-**Nunca** subas `.env` a Git ni compartas el token.
+| Variable | Obligatoria | Descripción |
+|----------|:-----------:|-------------|
+| `DISCORD_TOKEN` | Sí | Token del bot |
+| `CLIENT_ID` | Sí | ID de la aplicación (lo usa `d!invite`) |
+| `OWNER_ID` | Sí | ID del propietario, para comandos restringidos |
+| `PREFIX` | No | Prefijo de comandos (por defecto `d!`) |
+
+> ⚠️ **Nunca** subas `.env` a Git ni compartas el token.
 
 ## 3. Portal de Discord
-Activa los intents *Server Members* y *Message Content* en tu aplicación.
+Activa en tu aplicación los intents **Server Members** y **Message Content**.
+El bot usa `Guilds`, `GuildMessages`, `MessageContent`, `GuildMembers` y `GuildModeration` (este último para registrar baneos).
 
 ## 4. Ejecutar
 ```bash

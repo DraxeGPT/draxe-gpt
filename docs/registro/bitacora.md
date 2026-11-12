@@ -1,6 +1,7 @@
 # Bitácora
 
 ### 2026-11-11 — Reorganización de la documentación
+- README compactado (82 líneas): el detalle pasó a docs; nueva [hoja de ruta](../hoja-de-ruta.md); guía rápida y comandos ampliados.
 - README principal mejorado: atajos, sección Ecosistema y DraxeCraft Network, índice por áreas.
 - Documentos movidos a subcarpetas: `docs/tecnica/` (arquitectura, registro automático) y `docs/discord/comunidad.md`.
 - Índice [docs/README.md](../README.md) con enlaces directos; enlaces internos verificados.

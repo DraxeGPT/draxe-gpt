@@ -8,7 +8,8 @@ docs/
 ├─ tecnica/     Arquitectura y registro automático
 ├─ discord/     Comunidad oficial, plantilla y registro de cambios
 ├─ minecraft/   DraxeCraft Network (guías, scripts y video)
-└─ registro/    Bitácora del proyecto
+├─ registro/    Bitácora del proyecto
+└─ hoja-de-ruta.md
 ```
 
 ## 📘 [Básico](basico/)
@@ -41,6 +42,8 @@ docs/
 | [Scripts](minecraft/scripts/README.md) | Windows (`.ps1`) y Linux (`.sh`) |
 | [Comandos universales](minecraft/comandos-universales.md) | `/ip`, `/discord`, `/tiktok`, `/tienda` |
 | [Video tutorial (prompts)](minecraft/video/prompts-nano-banana.md) | Guion y prompts para Nano Banana |
+
+## 🗺️ [Hoja de ruta](hoja-de-ruta.md)
 
 ## 🧾 [Registro](registro/README.md)
 | Documento | Contenido |
